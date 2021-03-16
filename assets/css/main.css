@@ -101,14 +101,11 @@ img {
   padding-right: 65px;
   z-index: 99;
 }
-.logo a > img {
-  padding-top: 45px;
-}
 nav {
   font-size: 0;
 }
 .main-menu {
-  padding-top: 27px;
+  padding: 40px 0;
 }
 .main-menu ul li:not(:last-child) {
   padding-right: 15px;
@@ -135,10 +132,6 @@ nav {
 }
 .toggle_menu {
   display: none;
-}
-.toggle_menu i {
-  font-size: 30px;
-  color: white;
 }
 
 /* Slider area */
@@ -214,14 +207,14 @@ nav {
 .form_text {
   background-color: #000;
 }
-.form_text h3 {
+.form_text h4 {
   font-size: 34.43px;
   font-weight: 900;
   text-transform: uppercase;
   color: #fff;
   padding: 20px 33px;
 }
-.form_text h3 span {
+.form_text h4 span {
   color: #ffc61a;
 }
 .form_input {
@@ -437,8 +430,11 @@ nav {
 }
 
 /* app area */
-.app_area .section-title {
+.app_area {
   padding-top: 65px;
+}
+.app_box {
+  padding-bottom: 50px;
 }
 .app_content h4 {
   font-family: "Lato", sans-serif;
@@ -602,14 +598,14 @@ nav {
   padding-top: 41px;
   color: #fff;
 }
-.company_info ul li {
+.company_info ul li:not(:last-child) {
   display: flex;
   padding-bottom: 15px;
 }
 .company_info ul li i {
   color: #fff;
   font-size: 23.76px;
-  width: 30px;
+  min-width: 30px;
   text-align: center;
   line-height: 35px;
 }
