@@ -101,9 +101,12 @@ img {
   padding-right: 65px;
   z-index: 99;
 }
+.logo {
+  position: relative;
+  z-index: 999;
+}
 .main-menu {
   padding: 40px 0;
-  position: relative;
 }
 .main-menu nav {
   font-size: 0;
@@ -133,6 +136,14 @@ img {
 }
 .toggle_menu {
   display: none;
+  font-size: 30px;
+  color: #fff;
+  cursor: pointer;
+}
+.toggle_menu.close-btn {
+  position: absolute;
+  right: 32px;
+  top: 38px;
 }
 
 /* Slider area */
