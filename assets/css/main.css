@@ -97,16 +97,12 @@ img {
   top: 0;
   left: 0;
   right: 0;
-  padding-left: 65px;
-  padding-right: 65px;
+  padding: 40px 65px;
   z-index: 99;
 }
 .logo {
   position: relative;
   z-index: 999;
-}
-.main-menu {
-  padding: 40px 0;
 }
 .main-menu nav {
   font-size: 0;
@@ -134,13 +130,13 @@ img {
   -ms-border-radius: 30px;
   -o-border-radius: 30px;
 }
-.toggle_menu {
+.icon {
   display: none;
   font-size: 30px;
   color: #fff;
   cursor: pointer;
 }
-.toggle_menu.close-btn {
+.icon.close-btn {
   position: absolute;
   right: 32px;
   top: 38px;
@@ -270,7 +266,7 @@ img {
 .form_input .form-group input#Input1,
 .form_input .form-group input#Input3,
 .form_input .form-group input#Input5 {
-  margin-right: 7%;
+  margin-right: 6%;
 }
 .form_input .form-group input#Input1::placeholder,
 .form_input .form-group input#Input3::placeholder,
