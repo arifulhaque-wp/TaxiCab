@@ -1,3 +1,4 @@
+// Menu link active
 (function ($) {
   "Use Strict";
 
@@ -9,7 +10,7 @@
 
 }) (jQuery);
 
-
+// Mobile menu
 const menu = document.querySelector(".main-menu ul");
 const menuBars = document.querySelector(".bars");
 const menuClose = document.querySelector(".close-btn");
